@@ -21,8 +21,8 @@ Style the elements as follows. Unless otherwise stated, use page-level CSS.
     * Check by resizing the browser window that the minimum width is applied: content should not "shrink" further beyond 500px.
   - Apply a 1px width solid border with color #333333 around each news block (div).
   - Set the vertical distance between news blocks to 1em.
-  - Set the inner distance between the border and content of news blocks to 0.5em.
-  - Set the background of the news blocks to white.
+  - Set the vertical distance between news blocks and content of news blocks to 0.5em.
+  - Set the background of the news blocks to white.mi
   - Set the border to dashed and red around the second news article using inline CSS.
   - Set all text to red inside the second news article using inline CSS.
   - Select two words ("ipsum" and "quis" in the example) that will be highlighted (use the `<span>` tag around these words): 
