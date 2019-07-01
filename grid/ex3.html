@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ex3.grid</title>
+	<style >
+		.home{
+			display: grid;
+			grid-template-columns: 20% 80% ;
+			grid-template-rows:repeat(4,1fr); 
+            grid-column-gap: 20px;
+
+		}
+.comments{
+	display: grid;
+	grid-row: 1/4;
+
+}
+.name{
+	display: grid;
+	
+}
+.email{
+	display: grid;
+	
+}
+.phone{
+	display: grid;
+	
+}
+
+		
+	</style>
+</head>
+<body>
+	<form class="home">
+		<div class="comments">
+			<p>comments</p>
+		<input type="text" name=" name">
+	</div>
+		<div class="name">
+		<p style="padding:  10px">name</p>
+	<input type="text" name=" name">
+</div>
+	<div class="email">
+	<p>email</p>
+		<input type="email" name=" email"> 
+	</div>
+	<div class="phone">
+
+  <p>phone</p><input type="text" name=" name">
+        <input type="submit" name=" name">
+    </div>
+
+
+
+	</form>
+
+</body>
+</html>
