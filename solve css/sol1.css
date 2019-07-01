@@ -1,0 +1,21 @@
+div{
+width: 75%	;
+min-width: 500px;
+resize: 500px;
+ border: 1px solid #333333  ;
+  padding: .5em; 
+  
+  resize: both;
+  
+  background-color: white;
+  margin: 1em;
+ box-shadow: 3px 3px red;
+ border-radius: 5px;
+
+}
+span{
+ font: bold;
+ padding-right:0.5em;
+ padding-left: 0.5em;
+ color: blue; 
+ }

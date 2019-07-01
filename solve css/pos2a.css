@@ -1,0 +1,16 @@
+.odd , .even{
+	border: 1px solid black;
+	width:   50px;
+	height: 50px;
+	background-color: pink;
+	
+}
+.odd{
+	position: relative;
+	top: : 10px
+}
+.even{
+	position: relative;
+	top:-10px;
+
+}
